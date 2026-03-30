@@ -200,10 +200,10 @@ This feature helps **users better understand the prediction results**.
 ---
 
 # Tech Stack
-💻 Backend
+#💻 Backend
  * Python
  * Flash
-🤖 AI / ML
+#🤖 AI / ML
  * Keras (Eye disease classification model)
  * TensorFlow
  * Hugging Face Transformers (T5 model)
@@ -224,4 +224,4 @@ This feature helps **users better understand the prediction results**.
 
 # Authors
 
-**Tharun Kumar**, **Sanjiv R**, **Murugesh K**
+**Tharun Kumar**, **Sanjiv R** and **Murugesh K**
