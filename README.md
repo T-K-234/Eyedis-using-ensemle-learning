@@ -181,45 +181,45 @@ This feature helps **users better understand the prediction results**.
 
 # Applications
 
-• Early screening of eye diseases
-• AI-assisted medical diagnosis
-• Telemedicine and remote healthcare
-• Clinical decision support systems
-• Automated retinal image analysis
+• Early screening of eye diseases.
+• AI-assisted medical diagnosis.
+• Telemedicine and remote healthcare.
+• Clinical decision support systems.
+• Automated retinal image analysis.
 
 ---
 
 # Future Improvements
 
-• Deploy the system on cloud platforms
-• Add more eye disease categories
-• Improve model accuracy with larger datasets
-• Integrate real-time hospital data systems
-• Build a mobile application for disease detection
+• Deploy the system on cloud platforms.
+• Add more eye disease categories.
+• Improve model accuracy with larger datasets.
+• Integrate real-time hospital data systems.
+• Build a mobile application for disease detection.
 
 ---
 
 # Tech Stack
 💻 Backend
-Python
-Flask
+• Python
+• Flash 
 🤖 AI / ML
-Keras (Eye disease classification model)
-TensorFlow
-Hugging Face Transformers (T5 model)
+• Keras (Eye disease classification model)
+• TensorFlow
+• Hugging Face Transformers (T5 model)
 📊 NLP
-T5-small model for text summarization
+• T5-small model for text summarization
 🖼️ Image Processing
-OpenCV
-PIL
-NumPy
+• OpenCV
+• PIL
+• NumPy
 📄 PDF Processing
-PyPDF2 (text extraction)
-FPDF (PDF generation)
+• PyPDF2 (text extraction)
+• FPDF (PDF generation)
 🗄️ Database
-SQLite
+• SQLite
 🔐 Security
-Werkzeug (password hashing)
+•Werkzeug (password hashing)
 ---
 
 # Author
