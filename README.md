@@ -1,4 +1,3 @@
-
 # AI-Based Eye Disease Classification System with Report Summarization
 
 ## 📌 project Overview
@@ -200,25 +199,25 @@ This feature helps **users better understand the prediction results**.
 ---
 
 # Tech Stack
-#💻 Backend
+# 💻 Backend
  * Python
  * Flash
-#🤖 AI / ML
+# 🤖 AI / ML
  * Keras (Eye disease classification model)
  * TensorFlow
  * Hugging Face Transformers (T5 model)
-📊 NLP
+# 📊 NLP
  * T5-small model for text summarization
-🖼️ Image Processing
+# 🖼️ Image Processing
  * OpenCV
  * PIL
  * NumPy
-📄 PDF Processing
+# 📄 PDF Processing
  * PyPDF2 (text extraction)
  * FPDF (PDF generation)
-🗄️ Database
+# 🗄️ Database
  * SQLite
-🔐 Security
+# 🔐 Security
  * Werkzeug (password hashing)
 ---
 
