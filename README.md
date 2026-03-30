@@ -1,15 +1,15 @@
 
 # AI-Based Eye Disease Classification System with Report Summarization
 
-## Project Overview
+## 📌 project Overview
 
-This project presents a **Flask-based web application for automated eye disease classification using retinal images**. The system uses **deep learning and ensemble learning techniques** to classify eye diseases and generate a summarized diagnostic report for users.
+This project presents a **Flask-based web application for automated eye disease AI Healthcare Assistant: Eye Disease Detection & Report Summarization
 
-The application allows users to **upload retinal images through a web interface**, after which the trained deep learning models analyze the image and predict the disease category.
+👁️ Eye disease detection using deep learning
+📄 Medical report summarization using NLP
+🔐 User authentication system
 
-The system supports **multiclass classification** and can identify multiple eye diseases such as **Diabetic Retinopathy, Glaucoma, Cataract, and Healthy Eyes**.
-
-Additionally, the application generates a **short medical report summarizing the prediction and basic disease information**, making it easier for users to understand the results.
+The system allows users to upload retinal images for disease prediction and upload medical reports (PDF) to generate concise summaries
 
 ---
 
@@ -199,16 +199,27 @@ This feature helps **users better understand the prediction results**.
 
 ---
 
-# Technologies Used
-
-• Python
-• PyTorch
-• Tensorflow
-• Flask
-• OpenCV
-• NumPy
-• Matplotlib
-
+# Tech Stack
+💻 Backend
+Python
+Flask
+🤖 AI / ML
+Keras (Eye disease classification model)
+TensorFlow
+Hugging Face Transformers (T5 model)
+📊 NLP
+T5-small model for text summarization
+🖼️ Image Processing
+OpenCV
+PIL
+NumPy
+📄 PDF Processing
+PyPDF2 (text extraction)
+FPDF (PDF generation)
+🗄️ Database
+SQLite
+🔐 Security
+Werkzeug (password hashing)
 ---
 
 # Author
