@@ -198,7 +198,7 @@ This feature helps **users better understand the prediction results**.
 
 ---
 
-# Tech Stack
+### Tech Stack
 # 💻 Backend
  * Python
  * Flash
