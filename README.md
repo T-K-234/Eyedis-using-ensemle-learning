@@ -199,7 +199,7 @@ This feature helps **users better understand the prediction results**.
 ---
 
 # Tech Stack
-##₹ 💻 Backend
+### 💻 Backend
  * Python
  * Flash
 ### 🤖 AI / ML
