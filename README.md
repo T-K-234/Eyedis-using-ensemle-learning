@@ -220,7 +220,13 @@ This feature helps **users better understand the prediction results**.
 ### 🔐 Security
  * Werkzeug (password hashing)
 ---
-
+### How It Works
+# Eye Disease Detection
+1. User registers or logs in
+2. User uploads an eye image
+3. The image is resized to 224 × 224
+4. The model predicts one of the four classes
+5. The prediction, symptoms, and precautions are displayed
 # Authors
 
 **Tharun Kumar**, **Sanjiv R** and **Murugesh K**
