@@ -3,7 +3,7 @@
 
 ## 📌 project Overview
 
-This project presents a **Flask-based web application for automated eye disease AI Healthcare Assistant: Eye Disease Detection & Report Summarization
+This project presents a **Flask-based web application for automated eye disease AI Healthcare Assistant: Eye Disease Detection & Report Summarization**
 
 👁️ Eye disease detection using deep learning
 📄 Medical report summarization using NLP
@@ -25,13 +25,13 @@ This project integrates **multiple deep learning models through ensemble learnin
 
 # Key Features
 
-• Multiclass eye disease classification
-• Ensemble learning for improved accuracy
-• Upload retinal images through a web interface
-• Automatic prediction of eye disease type
-• Report summarization explaining the prediction
-• Flask-based backend for model inference
-• Simple and user-friendly interface
+* Multiclass eye disease classification
+* Ensemble learning for improved accuracy
+* Upload retinal images through a web interface
+* Automatic prediction of eye disease type
+* Report summarization explaining the prediction
+* Flask-based backend for model inference
+* Simple and user-friendly interface
 
 ---
 
@@ -63,10 +63,10 @@ Before training the models, the retinal images were preprocessed to improve mode
 
 ### Preprocessing Techniques
 
-• Image resizing to fixed dimensions
-• Pixel normalization
-• Data augmentation (rotation, flipping, zooming)
-• Noise reduction and image enhancement
+* Image resizing to fixed dimensions
+* Pixel normalization
+* Data augmentation (rotation, flipping, zooming)
+* Noise reduction and image enhancement
 
 These preprocessing steps help the model learn better features from the retinal images.
 
@@ -82,10 +82,10 @@ A custom CNN architecture was used to learn spatial features from retinal images
 
 Key characteristics:
 
-• Multiple convolution layers
-• ReLU activation functions
-• Max pooling layers
-• Fully connected classification layer
+* Multiple convolution layers
+* ReLU activation functions
+* Max pooling layers
+* Fully connected classification layer
 
 CNN helps capture **local patterns such as lesions, blood vessels, and abnormal structures**.
 
@@ -97,9 +97,9 @@ ResNet-18 is a deep convolutional neural network that uses **residual connection
 
 Key characteristics:
 
-• 18-layer deep architecture
-• Residual skip connections
-• Transfer learning using ImageNet weights
+* 18-layer deep architecture
+* Residual skip connections
+* Transfer learning using ImageNet weights
 
 ResNet helps in learning **complex hierarchical features from retinal images**.
 
@@ -111,9 +111,9 @@ Swin Transformer is a **Vision Transformer architecture** designed for image cla
 
 Key characteristics:
 
-• Shifted window self-attention
-• Hierarchical feature representation
-• Efficient computation for high-resolution images
+* Shifted window self-attention
+* Hierarchical feature representation
+* Efficient computation for high-resolution images
 
 It captures **global relationships between image patches**, which improves classification performance.
 
@@ -131,10 +131,10 @@ Instead of relying on a single model, this project uses **ensemble learning**.
 
 ### Advantages of Ensemble Learning
 
-• Higher accuracy
-• Better generalization
-• Reduced overfitting
-• More robust predictions
+* Higher accuracy
+* Better generalization
+* Reduced overfitting
+* More robust predictions
 
 ---
 
@@ -181,47 +181,47 @@ This feature helps **users better understand the prediction results**.
 
 # Applications
 
-• Early screening of eye diseases.
-• AI-assisted medical diagnosis.
-• Telemedicine and remote healthcare.
-• Clinical decision support systems.
-• Automated retinal image analysis.
+* Early screening of eye diseases
+* AI-assisted medical diagnosis
+* Telemedicine and remote healthcare
+* Clinical decision support systems
+* Automated retinal image analysis
 
 ---
 
 # Future Improvements
 
-• Deploy the system on cloud platforms.
-• Add more eye disease categories.
-• Improve model accuracy with larger datasets.
-• Integrate real-time hospital data systems.
-• Build a mobile application for disease detection.
+* Deploy the system on cloud platforms.
+* Add more eye disease categories.
+* Improve model accuracy with larger datasets.
+* Integrate real-time hospital data systems.
+* Build a mobile application for disease detection.
 
 ---
 
 # Tech Stack
 💻 Backend
-• Python
-• Flash 
+* Python
+* Flash 
 🤖 AI / ML
-• Keras (Eye disease classification model)
-• TensorFlow
-• Hugging Face Transformers (T5 model)
+* Keras (Eye disease classification model)
+* TensorFlow
+* Hugging Face Transformers (T5 model)
 📊 NLP
-• T5-small model for text summarization
+* T5-small model for text summarization
 🖼️ Image Processing
-• OpenCV
-• PIL
-• NumPy
+* OpenCV
+* PIL
+* NumPy
 📄 PDF Processing
-• PyPDF2 (text extraction)
-• FPDF (PDF generation)
+* PyPDF2 (text extraction)
+* FPDF (PDF generation)
 🗄️ Database
-• SQLite
+* SQLite
 🔐 Security
-•Werkzeug (password hashing)
+* Werkzeug (password hashing)
 ---
 
-# Author
+# Authors
 
 **Tharun Kumar**, **Sanjiv R**, **Murugesh K*"
