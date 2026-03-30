@@ -1,4 +1,4 @@
-# AI-Based Eye Disease Classification System with Report Summarization
+# 🤖 AI-Based Eye Disease Classification System with Report Summarization
 
 ## 📌 project Overview
 
@@ -12,7 +12,7 @@ The system allows users to upload retinal images for disease prediction and uplo
 
 ---
 
-# Introduction
+# 📖 Introduction
 
 Eye diseases are one of the major causes of vision impairment worldwide. Early diagnosis plays a crucial role in preventing severe vision loss. However, traditional diagnosis requires expert ophthalmologists and specialized medical equipment.
 
@@ -22,7 +22,7 @@ This project integrates **multiple deep learning models through ensemble learnin
 
 ---
 
-# Key Features
+# 🚀 Key Features
 
 * Multiclass eye disease classification
 * Ensemble learning for improved accuracy
@@ -34,7 +34,7 @@ This project integrates **multiple deep learning models through ensemble learnin
 
 ---
 
-# Dataset
+# 📊 Dataset
 
 The model was trained on a dataset of retinal fundus images collected from Kaggle.
 
@@ -56,7 +56,7 @@ The dataset contains four classes:
 
 ---
 
-# Data Preprocessing
+# 🧹 Data Preprocessing
 
 Before training the models, the retinal images were preprocessed to improve model performance.
 
@@ -71,7 +71,7 @@ These preprocessing steps help the model learn better features from the retinal 
 
 ---
 
-# Deep Learning Models
+# 🧬 Deep Learning Models
 
 The system uses **multiple deep learning models**, whose predictions are combined using **ensemble learning**.
 
@@ -118,7 +118,7 @@ It captures **global relationships between image patches**, which improves class
 
 ---
 
-# Ensemble Learning
+# 🧩 Ensemble Learning
 
 Instead of relying on a single model, this project uses **ensemble learning**.
 
@@ -137,7 +137,7 @@ Instead of relying on a single model, this project uses **ensemble learning**.
 
 ---
 
-# Web Application (Flask Integration)
+# 🌐 Web Application (Flask Integration)
 
 The trained models are integrated into a **Flask web application** that allows users to interact with the system easily.
 
@@ -151,11 +151,11 @@ The trained models are integrated into a **Flask web application** that allows u
 
 ---
 
-# Report Summarization
+#  📄 Report Summarization
 
 After classification, the system generates a **short textual summary describing the detected disease**.
 
-Example Output:
+Example Output: **Diabetic Retinopathy**
 
 Prediction: **Diabetic Retinopathy**
 
@@ -166,7 +166,7 @@ This feature helps **users better understand the prediction results**.
 
 ---
 
-# Training Configuration
+# 🛠️ Training Configuration
 
 | Parameter           | Value         |
 | ------------------- | ------------- |
@@ -178,7 +178,7 @@ This feature helps **users better understand the prediction results**.
 
 ---
 
-# Applications
+# 🌍 Applications
 
 * Early screening of eye diseases
 * AI-assisted medical diagnosis
@@ -188,7 +188,7 @@ This feature helps **users better understand the prediction results**.
 
 ---
 
-# Future Improvements
+# 🌱 Future Improvements
 
 * Deploy the system on cloud platforms.
 * Add more eye disease categories.
@@ -198,10 +198,10 @@ This feature helps **users better understand the prediction results**.
 
 ---
 
-# Tech Stack
+# 🧰 Tech Stack
 ### 💻 Backend
  * Python
- * Flash
+ * Flask
 ### 🤖 AI / ML
  * Keras (Eye disease classification model)
  * TensorFlow
@@ -221,12 +221,18 @@ This feature helps **users better understand the prediction results**.
  * Werkzeug (password hashing)
 ---
 ### How It Works
-# Eye Disease Detection
+# 👁️ Eye Disease Detection
 1. User registers or logs in
 2. User uploads an eye image
 3. The image is resized to 224 × 224
 4. The model predicts one of the four classes
-5. The prediction, symptoms, and precautions are displayed
-# Authors
+# 📄 Report Summarization Workflow
+1. User uploads PDF
+2. Text extracted using PyPDF2
+3. T5 model summarizes text
+4. Summary saved as PDF
+5. User downloads output
+---
+# 👨‍💻Authors
 
 **Tharun Kumar**, **Sanjiv R** and **Murugesh K**
