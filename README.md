@@ -201,27 +201,27 @@ This feature helps **users better understand the prediction results**.
 
 # Tech Stack
 💻 Backend
-* Python
-* Flash 
+ * Python
+ * Flash
 🤖 AI / ML
-* Keras (Eye disease classification model)
-* TensorFlow
-* Hugging Face Transformers (T5 model)
+ * Keras (Eye disease classification model)
+ * TensorFlow
+ * Hugging Face Transformers (T5 model)
 📊 NLP
-* T5-small model for text summarization
+ * T5-small model for text summarization
 🖼️ Image Processing
-* OpenCV
-* PIL
-* NumPy
+ * OpenCV
+ * PIL
+ * NumPy
 📄 PDF Processing
-* PyPDF2 (text extraction)
-* FPDF (PDF generation)
+ * PyPDF2 (text extraction)
+ * FPDF (PDF generation)
 🗄️ Database
-* SQLite
+ * SQLite
 🔐 Security
-* Werkzeug (password hashing)
+ * Werkzeug (password hashing)
 ---
 
 # Authors
 
-**Tharun Kumar**, **Sanjiv R**, **Murugesh K*"
+**Tharun Kumar**, **Sanjiv R**, **Murugesh K**
