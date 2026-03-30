@@ -4,9 +4,9 @@
 
 This project presents a **Flask-based web application for automated eye disease AI Healthcare Assistant: Eye Disease Detection & Report Summarization**
 
-👁️ Eye disease detection using deep learning
-📄 Medical report summarization using NLP
-🔐 User authentication system
+* 👁️ Eye disease detection using deep learning
+* 📄 Medical report summarization using NLP
+* 🔐 User authentication system
 
 The system allows users to upload retinal images for disease prediction and upload medical reports (PDF) to generate concise summaries
 
@@ -235,4 +235,6 @@ This feature helps **users better understand the prediction results**.
 ---
 # 👨‍💻Authors
 
-**Tharun Kumar**, **Sanjiv R** and **Murugesh K**
+* **Tharun Kumar**
+* **Sanjiv R**
+* **Murugesh K**
